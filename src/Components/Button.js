@@ -1,6 +1,11 @@
 import React, {Component} from 'react'
 
 class Button extends Component {
+    
+    refresh() {
+        console.log('working')
+    }
+    
     render() {
         return(
             <div>
@@ -8,6 +13,10 @@ class Button extends Component {
             </div>
            
         )
+    }
+
+    componentDidMount() {
+        this.refresh()
     }
 }
 
