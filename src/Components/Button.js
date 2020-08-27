@@ -18,6 +18,7 @@ class Button extends Component {
                 let newY = lastY + 1
                 let newStepX = [newX, lastY]
                 let newStepY = [lastX, newY]
+                debugger
                 if (newX > num) {
                   pathsArray.splice(i, 1)
                 } else if (newX === num && lastY === num) {
